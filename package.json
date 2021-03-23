@@ -1,6 +1,6 @@
 {
   "name": "@chaine/tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal design tokens for typography, spacing and colors used at Chaine's design system..",
   "main": "index.js",
   "types": "index.d.ts",
@@ -11,8 +11,7 @@
   ],
   "repository": "https://github.com/chaineapp/tokens",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc ",
+    "build": "tsc",
     "prepack": "npm run build"
   },
   "keywords": [
