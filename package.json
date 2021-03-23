@@ -1,12 +1,39 @@
 {
-  "name": "tokens",
+  "name": "@chaine/tokens",
   "version": "1.0.0",
-  "description": "",
+  "description": "Universal design tokens for typography, spacing and colors used at Chaine's design system..",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "tokens/*.js",
+    "tokens/*.d.ts",
+    "theme/*.js",
+    "theme/*.d.ts"
+  ],
+  "repository": "https://github.com/chaineapp/tokens",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepack": "yarn build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "primitives",
+    "colors",
+    "spacing",
+    "typography",
+    "variables",
+    "design-system"
+  ],
+  "author": "Annalise @ Chaine, Inc.",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
+  "homepage": "https://github.com/chaineapp/tokens/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/chaineapp/tokens/issues"
+  }
 }
