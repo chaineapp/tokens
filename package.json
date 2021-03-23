@@ -12,8 +12,8 @@
   "repository": "https://github.com/chaineapp/tokens",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "prepack": "yarn build"
+    "build": "tsc ",
+    "prepack": "npm run build"
   },
   "keywords": [
     "primitives",

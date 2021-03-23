@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": ".",
+    "target": "es2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "rootDir": ".",
+    "declaration": true
+    // "esModuleInterop": true,
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules"]
+}
