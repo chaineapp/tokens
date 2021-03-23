@@ -7,12 +7,15 @@
   "files": [
     "index.js",
     "index.d.ts",
-    "primitives/*.js",
-    "primitives/*.d.ts",
+    "tokens/*.js",
+    "tokens/*.d.ts",
     "theme/*.js",
     "theme/*.d.ts"
   ],
-  "repository": "https://github.com/chaineapp/tokens",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaineapp/tokens.git"
+  },
   "scripts": {
     "build": "tsc"
   },
