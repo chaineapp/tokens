@@ -6,11 +6,8 @@
   "types": "index.d.ts",
   "files": [
     "index.js",
-    "index.d.ts",
     "tokens/*.js",
-    "tokens/*.d.ts",
-    "theme/*.js",
-    "theme/*.d.ts"
+    "theme/*.js"
   ],
   "repository": "https://github.com/chaineapp/tokens",
   "scripts": {
