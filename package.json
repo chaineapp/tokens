@@ -15,12 +15,14 @@
     "prepack": "npm run build"
   },
   "keywords": [
-    "primitives",
+    "tokens",
     "colors",
     "spacing",
     "typography",
     "variables",
-    "design-system"
+    "design-system",
+    "design system",
+    "styled system"
   ],
   "author": "Annalise @ Chaine, Inc.",
   "license": "MIT",
