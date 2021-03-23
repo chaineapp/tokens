@@ -6,7 +6,7 @@
 
 # Tokens
 
-This repo contains values for color, spacing, and typography primitives for use with [Keychaine][tokens], Chaine's design system.
+This repo contains values for color, spacing, and typography primitives for use with [Keychaine][tokens], [Chaine's](https://chaineapp.com/) design system.
 
 _Credit: Huge shoutout to GitHub's design team. Most of our design system architecture is based off their work and credit goes to them. This package is influenced by [Github's Primer/Primitives][primer] and our design system has a crush on [@BinaryMuse](https://github.com/BinaryMuse) [@broccolini](https://github.com/broccolini) [@smockle](https://github.com/smockle)_
 
