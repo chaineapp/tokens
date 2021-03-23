@@ -33,10 +33,12 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "@chaine/prettier-config": "^1.0.1",
     "typescript": "^3.7.2"
   },
   "homepage": "https://github.com/chaineapp/tokens/blob/main/README.md",
   "bugs": {
     "url": "https://github.com/chaineapp/tokens/issues"
-  }
+  },
+  "prettier": "@chaine/prettier-config"
 }
