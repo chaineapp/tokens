@@ -6,7 +6,7 @@
 
 # Tokens
 
-This repo contains values for color, spacing, and typography primitives for use with [Keychaine][tokens], [Chaine's](https://chaineapp.com/) design system.
+This repo contains values for color, spacing, and typography primitives for use with [Keychaine][keychaine], [Chaine's](https://chaineapp.com/) design system.
 
 _Credit: Huge shoutout to GitHub's design team. Most of our design system architecture is based off their work and credit goes to them. This package is influenced by [Github's Primer/Primitives][primer] and our design system has a crush on [@BinaryMuse](https://github.com/BinaryMuse) [@broccolini](https://github.com/broccolini) [@smockle](https://github.com/smockle)_
 
@@ -51,12 +51,12 @@ const App = props => (
 )
 ```
 
-When used with libraries like [styled-system](https://jxnblk.com/styled-system/), you can make Primer Primitives available to style functions. In this example, we've imported the color function to the component's styles argument. The color values are from the color JSON object in Primer Primitives.
+When used with libraries like [styled-system](https://jxnblk.com/styled-system/), you can make Keychaine Tokens available to style functions. In this example, we've imported the color function to the component's styles argument. The color values are from the color JSON object in Keychaine Tokens.
 
 ```js
 import React from 'react'
 import styled, {ThemeProvider} from 'styled-components'
-import {theme} from '@primer/primitives'
+import {theme} from '@chaine/tokens'
 import {color} from 'styled-system'
 
 const Alert = styled.div`
@@ -78,3 +78,4 @@ const App = props => (
 [primer]: https://github.com/primer/primitives
 [npm]: https://www.npmjs.com/
 [install-npm]: https://docs.npmjs.com/getting-started/installing-node
+[keychaine]: https://www.npmjs.com/package/@chaine/keychaine

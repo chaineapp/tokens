@@ -1,6 +1,6 @@
 {
   "name": "@chaine/tokens",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Universal design tokens for typography, spacing and colors used at Chaine's design system..",
   "main": "index.js",
   "types": "index.d.ts",
@@ -27,7 +27,8 @@
     "variables",
     "design-system",
     "design system",
-    "styled system"
+    "styled system",
+    "design"
   ],
   "author": "Annalise @ Chaine, Inc.",
   "license": "MIT",
