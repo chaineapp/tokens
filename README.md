@@ -72,7 +72,7 @@ const App = props => (
 
 ## License
 
-[MIT](./LICENSE) &copy; [GitHub](https://chaineapp.com/)
+[MIT](./LICENSE) &copy; [Chaine](https://chaineapp.com/)
 
 [tokens]: https://github.com/chaineapp/keychaine
 [primer]: https://github.com/primer/primitives
