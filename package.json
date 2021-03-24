@@ -1,6 +1,6 @@
 {
   "name": "@chaine/tokens",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Universal design tokens for typography, spacing and colors used at Chaine's design system..",
   "main": "index.js",
   "types": "index.d.ts",
@@ -34,7 +34,8 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "@chaine/prettier-config": "^1.0.1",
+    "@chaine/prettier-config": "^1.0.3",
+    "prettier": "2.2.1",
     "typescript": "^3.7.2"
   },
   "homepage": "https://github.com/chaineapp/tokens/blob/main/README.md",
