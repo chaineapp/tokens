@@ -1,6 +1,6 @@
 export const colors = {
-    black: "#1E1E1E",
-    white: "#FFFFFF",
+    black: ["#1E1E1E"],
+    white: ["#FFFFFF"],
     gray: ["#FAFAFC", "#F2F2F7", "#E5E5EA", "#D1D1D6", "#C7C7CC", "#AEAEB2", "#8E8E93", "#666668", "#3D3D3D", "#2C2C2E"],
     blue: [ "#F0F8FF", "#CCE4FF", "#99CAFF", "#66AFFF", "#3394FF", "#007AFF", "#006BDF", "#005BBF", "#004C9F", "#003D80" ],
     green: [ "#F0FFF4", "#D4F7DC", "#A9EDBA", "#81E299", "#5AD579", "#34C759", "#2BB04D", "#239941", "#1C8135", "#15692A" ],

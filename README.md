@@ -10,6 +10,10 @@ This repo contains values for color, spacing, and typography primitives for use 
 
 _Credit: Huge shoutout to GitHub's design team. Most of our design system architecture is based off their work and credit goes to them. This package is influenced by [Github's Primer/Primitives][primer] and our design system has a crush on [@BinaryMuse](https://github.com/BinaryMuse) [@broccolini](https://github.com/broccolini) [@smockle](https://github.com/smockle)_
 
+## Notice
+
+Light and dark themes are now available.  Colors will be kept for some time to keep the library backwards compatible.  What has been traditionaly known as "colors" will now be the light mode colors, and dark mode colors were added as well.  These modes will be exported with the theme under the key `colorThemes`. 
+
 ## Install
 
 This repository is distributed with [npm][npm]. After [installing npm][install-npm], you can install `@chaine/tokens` with this command.
@@ -24,10 +28,10 @@ JSON is a highly interoperable format that can be used in many types of projects
 
 ### Example
 
-The Tokens are exported as keys on the top-level export. `colors`, `spacing`, and `typography` are available:
+The Tokens are exported as keys on the top-level export. `colors`, `colorThemes`, `spacing`, and `typography` are available:
 
 ```js
-import {colors, spacing, typography} from '@chaine/tokens'
+import {colors, colorThemes, spacing, typography} from '@chaine/tokens'
 ```
 
 In addition, Tokens exports a `theme`, which is a great way of sharing system styles and works with popular CSS-in-JS libraries such as [styled-components](https://www.styled-components.com/) and [emotion](https://emotion.sh/).
@@ -51,7 +55,7 @@ const App = props => (
 )
 ```
 
-When used with libraries like [styled-system](https://jxnblk.com/styled-system/), you can make Keychaine Tokens available to style functions. In this example, we've imported the color function to the component's styles argument. The color values are from the color JSON object in Keychaine Tokens.
+When used with libraries like [styled-system](https://jxnblk.com/styled-system/), you can make Keychaine Tokens available to style functions. In this example, we've imported the color function to the component's styles argument. The color values are from the color JSON object in Keychaine Tokens.  Additionally, if you want to take advantage of light and dark mode, use the colorThemes key.  
 
 ```js
 import React from 'react'
@@ -69,6 +73,9 @@ const App = props => (
   </ThemeProvider>
 )
 ```
+
+
+
 
 ## License
 

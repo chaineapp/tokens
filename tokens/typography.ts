@@ -1,5 +1,5 @@
 export const typography = {
-    fonts: [ 'Untitled Sans', 'Helvetica', 'Arial', 'sans-serif' ],
+    fonts: [ 'Eloquia', 'Helvetica', 'Arial', 'sans-serif' ],
     fontSizes: [
         '12px',
         '14px', 
@@ -14,9 +14,15 @@ export const typography = {
         default: 1.5
       },
     fontWeights: {
-        light: 'lighter',
+        hairline: 'hairline',
+        thin: 'thin',
+        extralight: 'extralight',
+        light: 'light',
         regular: 'normal',
-        medium: 'bolder',
-        bold: 'bold'
+        medium: 'medium',
+        semibold: 'semibold',
+        bold: 'bold',
+        extrabold: 'extrabold',
+        black: 'black'
     }
 };
