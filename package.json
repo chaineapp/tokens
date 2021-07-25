@@ -1,9 +1,10 @@
 {
   "name": "@chaine/tokens",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Universal design tokens for typography, spacing and colors used at Chaine's design system..",
   "main": "index.js",
   "types": "index.d.ts",
+  "typing": "index.d.ts",
   "files": [
     "index.js",
     "index.d.ts",
