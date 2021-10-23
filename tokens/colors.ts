@@ -1,6 +1,46 @@
 export const colors = {
-  black: '#1E1E1E',
+  black: '#141313',
   white: '#FFFFFF',
+  bodyText:"#3D3D3D",
+  grayDark:"#2C2C2E",
+  inactive:"#AEAEB2",
+  bgGray: "#F5F5F5",
+    customGray: "#F9F9F9",
+  grayGradiant:{
+    light: "linear(gray.100, gray.200",
+    dark: "none"
+  },
+  blueGradient:{
+    light: "linear(blue.400, blue.500)",
+    dark: "linear(blue.600, blue.700"
+  },
+
+  error: {
+    light: "#BF271F",
+    dark: "#9F1F17"
+  },
+  warning: {
+    light: "#BF9D00",
+    dark: "#9F8500"
+  },
+  whitefade: {    
+    10: "rgba(255, 255, 255, 0.1)",
+    15: "rgba(255, 255, 255, 0.15)",
+    30: "rgba(255, 255, 255,0.30)",
+    70: "rgba(255, 255, 255, 0.7)"
+  },
+  grayfade: {
+    10: "rgba(174, 174, 178, 0.1)",
+    15: "rgba(174, 174, 178, 0.15)",
+    30: "rgba(174, 174, 178, 0.30)",
+    70: "rgba(174, 174, 178, 0.70)"
+  },
+  blackfade: {
+    10: "rgba(30, 30, 30, 0.1)",
+    15: "rgba(30, 30, 30, 0.15)",
+    30: "rgba(30, 30, 30, 0.30)",
+    70: "rgba(30, 30, 30, 0.70)"
+  },
   dark: {
     100: '#343443',
     200: '#272737',
@@ -12,12 +52,12 @@ export const colors = {
     100: '#F2F2F7',
     200: '#E5E5EA',
     300: '#D1D1D6',
-    400: '#C7C7CC',
-    500: '#AEAEB2',
-    600: '#8E8E93',
-    700: '#666668',
-    800: '#242330', //'#23222C', //  '#232326', //'#3D3D3D',
-    900: '#1D1C28' //'#1B1B22' //'#2C2C2E'
+    400: '#AEAEB2',
+    500: '#8E8E93',
+    600: '#666668',
+    700: '#404042',
+    800: '#2C2C2E', //'#23222C', //  '#232326', //'#3D3D3D',
+    900: '#1E1E1E' //'#1B1B22' //'#2C2C2E'
   },
   blue: {
     50: '#F0F8FF',
@@ -114,11 +154,5 @@ export const colors = {
     700: '#BF507C',
     800: '#9F4167',
     900: '#803352'
-  },
-  appleDark: {
-    100: '#4E4649',
-    200: '#413C40',
-    300: '#282427',
-    400: '#252025',
-},
+  }
 }
