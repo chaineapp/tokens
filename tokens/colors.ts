@@ -1,51 +1,51 @@
 export const colors = {
   black: '#141313',
   white: '#FFFFFF',
-  bodyText:"#3D3D3D",
-  grayDark:"#2C2C2E",
-  inactive:"#AEAEB2",
-  bgGray: "#F5F5F5",
-    customGray: "#F9F9F9",
-  grayGradiant:{
-    light: "linear(gray.100, gray.200",
-    dark: "none"
+  bodyText: '#3D3D3D',
+  grayDark: '#2C2C2E',
+  inactive: '#AEAEB2',
+  bgGray: '#F5F5F5',
+  customGray: '#F9F9F9',
+  grayGradiant: {
+    light: 'linear(gray.100, gray.200)',
+    dark: 'none'
   },
-  blueGradient:{
-    light: "linear(blue.400, blue.500)",
-    dark: "linear(blue.600, blue.700"
+  blueGradient: {
+    light: 'linear(blue.400, blue.500)',
+    dark: 'linear(blue.600, blue.700)'
   },
 
   error: {
-    light: "#BF271F",
-    dark: "#9F1F17"
+    light: '#BF271F',
+    dark: '#9F1F17'
   },
   warning: {
-    light: "#BF9D00",
-    dark: "#9F8500"
+    light: '#BF9D00',
+    dark: '#9F8500'
   },
-  whitefade: {    
-    10: "rgba(255, 255, 255, 0.10)",
-    15: "rgba(255, 255, 255, 0.15)",
-    30: "rgba(255, 255, 255, 0.30)",
-    70: "rgba(255, 255, 255, 0.70)"
+  whitefade: {
+    10: 'rgba(255, 255, 255, 0.10)',
+    15: 'rgba(255, 255, 255, 0.15)',
+    30: 'rgba(255, 255, 255, 0.30)',
+    70: 'rgba(255, 255, 255, 0.70)'
   },
   grayfade: {
-    10: "rgba(174, 174, 178, 0.10)",
-    15: "rgba(174, 174, 178, 0.15)",
-    30: "rgba(174, 174, 178, 0.30)",
-    70: "rgba(174, 174, 178, 0.70)"
+    10: 'rgba(174, 174, 178, 0.10)',
+    15: 'rgba(174, 174, 178, 0.15)',
+    30: 'rgba(174, 174, 178, 0.30)',
+    70: 'rgba(174, 174, 178, 0.70)'
   },
   blackfade: {
-    10: "rgba(30, 30, 30, 0.10)",
-    15: "rgba(30, 30, 30, 0.15)",
-    30: "rgba(30, 30, 30, 0.30)",
-    70: "rgba(30, 30, 30, 0.70)"
+    10: 'rgba(30, 30, 30, 0.10)',
+    15: 'rgba(30, 30, 30, 0.15)',
+    30: 'rgba(30, 30, 30, 0.30)',
+    70: 'rgba(30, 30, 30, 0.70)'
   },
   dark: {
     100: '#343443',
     200: '#272737',
     300: '#1D1D28',
-    400: '#1A1924',
+    400: '#1A1924'
   },
   gray: {
     50: '#FAFAFC',
